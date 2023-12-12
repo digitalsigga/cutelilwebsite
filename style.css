@@ -39,18 +39,37 @@ body {
 
 .content {
     background-color: #f2f2f2;
-    border-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 300px;
     padding-right: 300px;
+    gap: 50px;
+    padding-bottom: 30px;
 }
+
+.box1,
+.box2,
+.box3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.random-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-padding-top: 100px;
+}
+
 
 .boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 50px;
 }
 
 .footer {
@@ -99,6 +118,32 @@ button {
     font-style: light-italic;
     color: #1F2937;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.popup {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10%;
+    flex-direction: row;
+    height: 200px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+}
+
+.popup-left {
+}
+
+.popup-right {
+    border: white;
+    border-radius: 10%;
+}
+
+.popup-space {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
