@@ -1,7 +1,12 @@
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
+a {
+    font-size: 20px;
+}
 
 .website {
     background-color: #f2f2f2;
@@ -20,6 +25,32 @@ body {
     padding-right: 300px;
 }
 
+.header-left {
+    font-size: 18px;
+    color: #F9FAF8;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: extra-bold;
+    color:#F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: white solid 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -31,6 +62,8 @@ body {
 
 .logo {
     display: flex;
+    font-size: 24px;
+    color:#F9FAF8;
 }
 
 .links {
@@ -58,11 +91,14 @@ body {
     align-items: center;
 }
 
-.random-text {
+.information {
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-padding-top: 100px;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937
+
 }
 
 
@@ -104,14 +140,7 @@ img {
     height: 300px;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .quote {
     font-size: 36px;
@@ -126,26 +155,38 @@ button {
 
 .popup {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     border-radius: 10%;
-    flex-direction: row;
     height: 200px;
-    border-radius: 10%;
+    width: 100%;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 10px;
     margin-bottom: 30px;
+    color: white;
+    gap: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .popup-left {
+    border: white;
+    border-radius: 10%;
+    padding: 10px;
 }
 
 .popup-right {
     border: white;
     border-radius: 10%;
 }
-
+ 
 .popup-space {
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
-}
+} 
+
